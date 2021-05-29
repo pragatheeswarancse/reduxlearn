@@ -8,10 +8,9 @@ const Users = () => {
     console.log(users)
     return (
       <div>
+        <p>user list</p>
       {users.map ((user) => {
-        (
-         <User name={user.name} id={user.id} password={user.password} />
-        )
+         return <User name={user.name} id={user.id} password={user.password} />
        })}
       </div>
     )

@@ -27,7 +27,7 @@ const Home = () => {
             name:"",
             password:"",
         })
-    }
+    };
 
     return (
         <div>

@@ -7,11 +7,12 @@ const userReducer = (state = initialState, action) => {
         case "ADD_USER":
             return {
                 ...state,
-                users:[...state.users,action.users],
+                users:[...state.users,action.user],
             };
         default:
             return state;
     }
+    
 };
 
 export default userReducer;
